@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+#hello
+{
+  background-color: #fff;
+  color: rgba(1, 1, 3, 0.99);
+
+}
+td
+{
+ color: rgba(24, 44, 93, 0.99);
+ border: 1px solid #000000;
+ font-weight: 800;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar bar-header bar-dark">
+
+              <h1 class="title">Age Calculator</h1>
+
+
+
+      </ion-header-bar>
+      <ion-content id="hello">
+          <form name="birthday">
+              <label class="item item-input" style="height:20px">
+                  <span class="input-label" style="color: rgba(24, 44, 93, 0.99)"> Date</span>
+                  <select name="day" size="1">
+              <script type="text/javascript">for(var j=1;j<32;j++)document.write("<option value="+j+">"+j+"</option>");
+              </script>
+                  </select>
+              </label>
+              <label class="item item-input" style="height:20px">
+                  <span class="input-label" style="color: rgba(24, 44, 93, 0.99)"> Month</span>
+                  <select name="month" size="1">
+                      <script type="text/javascript">for(var i=1;i<13;i++)document.write("<option value="+i+">"+i+"</option>");
+                      </script>
+                  </select>
+              </label>
+              <label class="item item-input" style="height:20px">
+                  <span class="input-label" style="color: rgba(24, 44, 93, 0.99)">Year</span>
+                  <select name="year" size="1">
+                      <script type="text/javascript">for(var k=startyear;k<endyear;k++)document.write("<option value="+k+">"+k+"</option>");
+                      </script>
+                  </select>
+              </label>
+              <button class="button button-full button-positive" onclick="calage()">
+                  Calculate
+              </button>
+
+              <!---input name="start"  value="Calculate" type="button"---><br>
+              <input name="age" size="40" value="Result" style="color: rgba(24, 44, 93, 0.99)"><br>
+              <span style="color: rgba(93, 31, 60, 0.99)">You have been living for:</span><br>
+              <table >
+                  <tr>
+                      <td>In months:</td>
+                      <td><input name="months" size="30"></td>
+                  </tr>
+                  <tr>
+                      <td>In days:</td>
+                      <td><input name="daa" size="30">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>In hours:</td>
+                      <td><input name="hours" size="30"></td>
+                  </tr>
+                  <tr>
+                      <td>In minutes:</td>
+                      <td><input name="min" size="30"></td>
+                  </tr>
+                  <tr>
+                      <td colspan=2>Your next birthday will be in:</td>
+                  </tr>
+                  <tr>
+                      <td colspan=2><input name="nbday" size="40">
+
+                      </td></tr>
+              </table>
+          </form>
+
+      </ion-content>
+        <div class="bar bar-footer bar-dark">
+            <div class="title">Made By Sufiyan Mansoor Roll no 1959</div>
+        </div>
+
+
+    </ion-pane>
+  </body>
+</html>

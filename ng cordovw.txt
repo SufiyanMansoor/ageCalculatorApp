@@ -1,0 +1,5 @@
+Reference links for Saylani Batch 2 - session : 6th Sept 2015
+http://ngcordova.com
+http://ngcordova.com/docs/plugins
+https://github.com/driftyco/ng-cordova
+http://thejackalofjavascript.com/getting-started-with-ngco…/
